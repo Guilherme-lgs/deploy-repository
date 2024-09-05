@@ -1,0 +1,223 @@
+/*geral modificaçoes*/
+*{
+    font-family: "Bree Serif", serif;
+    padding:0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+ 
+body{
+background-color: rgba(218, 140, 23, 0.24);
+height: 100vh;
+   
+}
+
+
+.interface{
+    max-width: 1280px;
+    margin: auto;
+    padding: 54px;
+    
+}
+.flex{
+    display:flex;
+}
+
+h2.titulo{
+    font-size: 30px;
+    color: rgba(209, 126, 18, 0.767);
+    text-align: center;
+    padding: 54px;
+}
+
+ h2.titulo span{
+    color:rgba(230, 69, 6, 0.87) ;
+ }
+
+/* estilo cbc */
+header{
+    padding: 30px 4%; 
+    margin-top: 22px;  
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+   
+
+}
+header a{
+    color:#000000a1;
+    text-decoration: dashed;
+    display: inline-block;
+}
+
+header a:hover{
+    color:black ;
+    transform:scale(1.07);
+}
+
+header nav ul{
+    list-style-type: none;
+
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+    font-size: 30px;
+
+}
+
+header .btn-contato button{
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: 800px;
+    background-color: rgba(238, 182, 28, 0.411);
+    border-radius: 30px;
+    border: 0%;
+    cursor:pointer;
+    font-size: 19px;
+    transition: 0.9ms;
+
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px 0px 8px rgb(255, 251, 2);
+    transform:scale(1.07);
+    transition:0.9ms ;
+}
+
+.logomarca{
+    height: 160px;
+    width: auto;
+    border-radius: 20%;
+    padding: 10px;
+}
+
+/*topo siteeeeeeee*/
+
+#eu  {
+    justify-content:space-evenly ;
+    padding: auto;
+    flex-direction:row;
+    display: flex;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.438);
+    gap: 90px;
+}
+
+section.topo-site{
+    padding:45px 5%;
+    color: rgba(199, 75, 18, 0.932);
+    display: flex;
+    flex-direction: row;
+    font-size: 34px;
+}
+
+section.topo-site.flex {
+    align-items: center;
+    justify-content: center;
+     
+}
+
+.topo-site >h1{
+  line-height: 40px;  
+}
+
+.topo-site h1 span{
+    color: rgb(179, 112, 50);
+}
+
+/* apartir daqui começo a fazer o fru-fru da parte  projetos */
+
+section.projetos{
+    padding: 50% 4;
+
+}
+
+.projetos .caixas {
+ color: rgb(0, 0, 0);
+ 
+}
+.caixas{
+    padding: 23px;
+    top: 10px;
+
+}
+
+.caixas{
+    background-color: rgba(255, 0, 0, 0.658);
+    height: auto;
+    width: 700px;
+    
+    
+    /* quero dizer que pra vc q tá lendo q perdi 34 minutos de vida pra fzr esse h3>a prestar(talves eu esteja ficando bilutetéia)*/
+}
+h3>a{
+    color:black;
+    
+}
+
+/* armoinização(ui kk) do final texto e footer logo abaixo !!!!*/
+section.qfinal{
+    padding:45px 5%;
+    color: rgba(199, 75, 18, 0.932);
+    display: flex;
+    flex-direction: row;
+    font-size: 34px;
+    top: 34px;
+}
+
+section.texto-fim {
+    align-items: center;
+    justify-content: center;
+     
+}
+
+.texto-fim >h1{
+  line-height: 40px;  
+  padding: 4%;
+  
+}
+.texto-fim >p{
+    line-height: 40px;  
+    padding: 6%;
+    align-items: center;
+    
+  }
+
+/* Reseta o padding e margin padrão do body e html */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* Estilo para o conteúdo principal para garantir que o footer fique no final da página */
+main {
+    padding-bottom: 80px; /* inferior para garantir que o footer não sobreponha o conteúdo */
+}
+
+/* Estilos para o footer */
+footer {
+    background-color: #dd4c09e0;
+    color: #030000;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: relative; /* Pode ser o padrão ou 'static' */
+    bottom: 0;
+    top: 90px;
+}
+
+/* Estilos  conteúdo  footer */
+.conteudo {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contato p {
+    margin: 10px 0;
+}
+
