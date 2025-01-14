@@ -1,114 +1,108 @@
-/*geral modificaçoes*/
-*{
+/* geral modificaçoes */
+* {
     font-family: "Bree Serif", serif;
-    padding:0%;
+    padding: 0%;
     margin: 0%;
     box-sizing: border-box;
 }
- 
-body{
-background-color: rgba(218, 140, 23, 0.24);
-height: 100vh;
-   
+
+
+body {
+    background-color: rgba(218, 140, 23, 0.24);
+    height: 100vh;
 }
 
-
-.interface{
+.interface {
     max-width: 1280px;
     margin: auto;
     padding: 54px;
-    
-}
-.flex{
-    display:flex;
 }
 
-h2.titulo{
+.flex {
+    display: flex;
+}
+
+h2.titulo {
     font-size: 30px;
     color: rgba(209, 126, 18, 0.767);
     text-align: center;
     padding: 54px;
 }
 
- h2.titulo span{
-    color:rgba(230, 69, 6, 0.87) ;
- }
+h2.titulo span {
+    color: rgba(230, 69, 6, 0.87);
+}
 
 /* estilo cbc */
-header{
-    padding: 30px 4%; 
-    margin-top: 22px;  
+header {
+    padding: 30px 4%;
+    margin-top: 22px;
 }
 
-header > .interface{
+header > .interface {
     display: flex;
     align-items: center;
-   
-
 }
-header a{
-    color:#000000a1;
+
+header a {
+    color: #000000a1;
     text-decoration: dashed;
     display: inline-block;
 }
 
-header a:hover{
-    color:black ;
-    transform:scale(1.07);
+header a:hover {
+    color: black;
+    transform: scale(1.07);
 }
 
-header nav ul{
+header nav ul {
     list-style-type: none;
-
 }
 
 header nav ul li {
     display: inline-block;
     padding: 0 40px;
     font-size: 30px;
-
 }
 
-header .btn-contato button{
+header .btn-contato button {
     padding: 10px 30px;
     font-size: 18px;
     font-weight: 800px;
     background-color: rgba(238, 182, 28, 0.411);
     border-radius: 30px;
     border: 0%;
-    cursor:pointer;
+    cursor: pointer;
     font-size: 19px;
     transition: 0.9ms;
-
 }
 
-header .btn-contato button:hover{
+header .btn-contato button:hover {
     box-shadow: 0px 0px 8px rgb(255, 251, 2);
-    transform:scale(1.07);
-    transition:0.9ms ;
+    transform: scale(1.07);
+    transition: 0.9ms;
 }
 
-.logomarca{
+.logomarca {
     height: 160px;
     width: auto;
     border-radius: 20%;
     padding: 10px;
 }
 
-/*topo siteeeeeeee*/
-
-#eu  {
-    justify-content:space-evenly ;
+/* topo siteeeeeeee */
+#eu {
+    justify-content: space-evenly;
     padding: auto;
-    flex-direction:row;
+    flex-direction: row;
     display: flex;
     font-size: 20px;
     color: rgba(0, 0, 0, 0.438);
     gap: 90px;
 }
 
-section.topo-site{
-    padding:45px 5%;
+section.topo-site {
+    padding: 45px 5%;
     color: rgba(199, 75, 18, 0.932);
     display: flex;
     flex-direction: row;
@@ -118,50 +112,44 @@ section.topo-site{
 section.topo-site.flex {
     align-items: center;
     justify-content: center;
-     
 }
 
-.topo-site >h1{
-  line-height: 40px;  
+.topo-site > h1 {
+    line-height: 40px;
 }
 
-.topo-site h1 span{
+.topo-site h1 span {
     color: rgb(179, 112, 50);
 }
 
-/* apartir daqui começo a fazer o fru-fru da parte  projetos */
-
-section.projetos{
+/* apartir daqui começo a fazer o fru-fru da parte projetos */
+section.projetos {
     padding: 50% 4;
-
 }
 
 .projetos .caixas {
- color: rgb(0, 0, 0);
- 
+    color: rgb(0, 0, 0);
 }
-.caixas{
+
+.caixas {
     padding: 23px;
     top: 10px;
-
 }
 
-.caixas{
+.caixas {
     background-color: rgba(255, 0, 0, 0.658);
     height: auto;
     width: 700px;
-    
-    
-    /* quero dizer que pra vc q tá lendo q perdi 34 minutos de vida pra fzr esse h3>a prestar(talves eu esteja ficando bilutetéia)*/
-}
-h3>a{
-    color:black;
-    
+    /* quero dizer que pra vc q tá lendo q perdi 34 minutos de vida pra fzr esse h3>a prestar(talves eu esteja ficando bilutetéia) */
 }
 
-/* armoinização(ui kk) do final texto e footer logo abaixo !!!!*/
-section.qfinal{
-    padding:45px 5%;
+h3 > a {
+    color: black;
+}
+
+/* armoinização(ui kk) do final texto e footer logo abaixo !!!! */
+section.qfinal {
+    padding: 45px 5%;
     color: rgba(199, 75, 18, 0.932);
     display: flex;
     flex-direction: row;
@@ -172,20 +160,18 @@ section.qfinal{
 section.texto-fim {
     align-items: center;
     justify-content: center;
-     
 }
 
-.texto-fim >h1{
-  line-height: 40px;  
-  padding: 4%;
-  
+.texto-fim > h1 {
+    line-height: 40px;
+    padding: 4%;
 }
-.texto-fim >p{
-    line-height: 40px;  
+
+.texto-fim > p {
+    line-height: 40px;
     padding: 6%;
     align-items: center;
-    
-  }
+}
 
 /* Reseta o padding e margin padrão do body e html */
 html, body {
@@ -211,7 +197,7 @@ footer {
     top: 90px;
 }
 
-/* Estilos  conteúdo  footer */
+/* Estilos conteúdo footer */
 .conteudo {
     max-width: 1200px;
     margin: 0 auto;
@@ -221,3 +207,154 @@ footer {
     margin: 10px 0;
 }
 
+/* Media queries para responsividade */
+@media (max-width: 1200px) {
+    .interface {
+        padding: 30px;
+    }
+
+    h2.titulo {
+        font-size: 26px;
+        padding: 30px;
+    }
+
+    header nav ul li {
+        padding: 0 20px;
+        font-size: 24px;
+    }
+
+    header .btn-contato button {
+        padding: 8px 20px;
+        font-size: 16px;
+    }
+
+    .logomarca {
+        height: 120px;
+    }
+
+    section.topo-site {
+        font-size: 28px;
+    }
+
+    .topo-site h1 {
+        line-height: 36px;
+    }
+
+    section.projetos {
+        padding: 30% 4;
+    }
+
+    .caixas {
+        width: 100%;
+    }
+
+    section.qfinal {
+        font-size: 28px;
+    }
+
+    .texto-fim >h1, .texto-fim >p {
+        padding: 2%;
+    }
+}
+
+@media (max-width: 768px) {
+    .interface {
+        padding: 20px;
+    }
+
+    h2.titulo {
+        font-size: 22px;
+        padding: 20px;
+    }
+
+    header nav ul li {
+        padding: 0 10px;
+        font-size: 20px;
+    }
+
+    header .btn-contato button {
+        padding: 6px 15px;
+        font-size: 14px;
+    }
+
+    .logomarca {
+        height: 100px;
+    }
+
+    section.topo-site {
+        font-size: 24px;
+        flex-direction: column;
+    }
+
+    .topo-site h1 {
+        line-height: 32px;
+    }
+
+    section.projetos {
+        padding: 20% 4;
+    }
+
+    .caixas {
+        width: 100%;
+    }
+
+    section.qfinal {
+        font-size: 24px;
+        flex-direction: column;
+    }
+
+    .texto-fim >h1, .texto-fim >p {
+        padding: 1%;
+    }
+}
+
+@media (max-width: 480px) {
+    .interface {
+        padding: 10px;
+    }
+
+    h2.titulo {
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    header nav ul li {
+        padding: 0 5px;
+        font-size: 16px;
+    }
+
+    header .btn-contato button {
+        padding: 4px 10px;
+        font-size: 12px;
+    }
+
+    .logomarca {
+        height: 80px;
+    }
+
+    section.topo-site {
+        font-size: 20px;
+        flex-direction: column;
+    }
+
+    .topo-site h1 {
+        line-height: 28px;
+    }
+
+    section.projetos {
+        padding: 10% 4;
+    }
+
+    .caixas {
+        width: 100%;
+    }
+
+    section.qfinal {
+        font-size: 20px;
+        flex-direction: column;
+    }
+
+    .texto-fim >h1, .texto-fim >p {
+        padding: 0.5%;
+    }
+}
