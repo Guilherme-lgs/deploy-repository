@@ -26,7 +26,8 @@ h2.titulo {
     font-size: 30px;
     color: rgba(209, 126, 18, 0.767);
     text-align: center;
-    padding: 54px;
+    padding: 20px;
+    margin-bottom: 10px;
 }
 
 h2.titulo span {
