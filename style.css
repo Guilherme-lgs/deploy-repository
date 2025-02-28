@@ -14,8 +14,9 @@ body {
 
 .interface {
     max-width: 1280px;
-    margin: 6rem;
-    padding: 54px;
+    margin: 2rem;
+    /* padding: 54px; */
+    
 }
 
 .flex {
@@ -211,7 +212,7 @@ footer {
 /* Media queries para responsividade */
 @media (max-width: 1200px) {
     .interface {
-        padding: 30px;
+        padding: 20px;
     }
 
     h2.titulo {
@@ -238,7 +239,7 @@ footer {
     }
 
     .topo-site h1 {
-        line-height: 36px;
+        line-height: 68px;
     }
 
     section.projetos {
@@ -258,9 +259,9 @@ footer {
     }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 400px) {
     .interface {
-        padding: 20px;
+        padding: 10px;
     }
 
     h2.titulo {
